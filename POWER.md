@@ -12,15 +12,21 @@ A lightweight “power system” for ClawMate + Thiago.
 
 - Main dev folder: `~/dev`
 
-Known repos (auto-discovered):
-- `~/dev/foxdev/database_merger_node`
-- `~/dev/tavtech/lastship`
-- `~/dev/tavtech/meetiva`
-- `~/dev/tools/transcribe-video`
-- `~/dev/tools/transcribe-audio`
-- `~/dev/tools/wp-dev-suite`
-- `~/dev/weedmed/weedmed-site`
-- `~/dev/weedmed/weedmed-api`
+Known projects / repos (auto-discovered):
+
+**Income projects (Thiago):**
+- `~/dev/foxdev/marilyns` (WordPress; not a git repo)
+- `~/dev/foxdev/hackybara` (WordPress; not a git repo)
+- `~/dev/foxdev/database_merger_node` (Node/TS; git)
+
+**Other repos:**
+- `~/dev/tavtech/lastship` (git)
+- `~/dev/tavtech/meetiva` (git)
+- `~/dev/tools/transcribe-video` (git)
+- `~/dev/tools/transcribe-audio` (git)
+- `~/dev/tools/wp-dev-suite` (git)
+- `~/dev/weedmed/weedmed-site` (git; freelance)
+- `~/dev/weedmed/weedmed-api` (git; freelance)
 
 ## Workflow (coding)
 
