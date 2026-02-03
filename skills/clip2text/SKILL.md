@@ -1,6 +1,7 @@
 ---
 name: clip2text
 description: Transcribe YouTube URLs or uploaded MP4 videos into text using the local Clip2text service. Use when the user sends a YouTube link, a direct video URL, or attaches an mp4 and wants the full transcript.
+user-invocable: true
 metadata: {"openclaw":{"requires":{"bins":["curl","node"]}}}
 ---
 
@@ -13,20 +14,25 @@ metadata: {"openclaw":{"requires":{"bins":["curl","node"]}}}
 
 ## How to use
 
-### If the user provides a URL
+This skill is exposed as a slash command.
+
+- `/clip2text <url>`
+- `/clip2text` with an attached mp4
+
+### If the user provides a URL (skill args)
 
 Run:
 
 - `{baseDir}/scripts/clip2text.sh <url>`
 
-### If the user uploads an mp4
+### If the user uploads an mp4 (attachment)
 
-- Look for a local file path provided by the channel adapter.
+- Prefer a local attachment path if present.
 - If a path is available, run:
   - `{baseDir}/scripts/clip2text.sh <path>`
 
 If no local path is visible, ask one question:
-- "I received the video, but I do not have a local file path. Can you resend it with the caption: transcribe"
+- "I received the mp4, but I cannot access a local file path for it. Can you resend it as a file (not as compressed video), then run /clip2text again"
 
 ## Output rules
 
