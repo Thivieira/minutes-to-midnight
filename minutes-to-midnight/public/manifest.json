@@ -1,0 +1,16 @@
+{
+  "name": "Minutes "short_name": to Midnight",
+  "M2M",
+  "description": "Cold War grand strategy simulation. Play as USA or USSR.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#c41e3a",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

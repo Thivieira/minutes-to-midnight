@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <circle cx="50" cy="50" r="45" fill="#1a1a2e" stroke="#c41e3a" stroke-width="3"/>
+  <text x="50" y="65" font-family="monospace" font-size="40" font-weight="bold" fill="#c41e3a" text-anchor="middle">M2M</text>
+  <line x1="50" y1="20" x2="50" y2="35" stroke="#ffd700" stroke-width="2"/>
+  <line x1="50" y1="65" x2="50" y2="80" stroke="#ffd700" stroke-width="2"/>
+  <polygon points="45,35 50,25 55,35" fill="#ffd700"/>
+</svg>
